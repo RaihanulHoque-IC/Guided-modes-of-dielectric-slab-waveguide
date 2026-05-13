@@ -1,14 +1,5 @@
 # Guided Modes of Dielectric Slab Waveguide with Anisotropic Core
 
-**Master's Project** | Universität Paderborn — Fachgebiet Theoretische Elektrotechnik
-
-**Submitted to:** Prof. Dr. Jens Förstner  
-**Supervisors:** Dr. Manfred Hammer, Henna Farheen  
-**Presented by:** Shaiera Washima, Rajdeep Roy, Muhammed Raihanul Hoque  
-**Date:** 3rd July 2024
-
----
-
 ## Table of Contents
 - [Overview](#overview)
 - [Waveguide Structure](#waveguide-structure)
@@ -25,7 +16,7 @@
 
 ## Overview
 
-This project implements and analyzes **guided modes** of a three-layer dielectric slab waveguide with both **isotropic** and **anisotropic** (Lithium Niobate, LiNbO₃) core media. The analytic procedures for modal analysis are outlined and implemented in **MATLAB**, with results validated against the OMS and TFLN online solvers.
+This project implements and analyzes **guided modes** of a three-layer dielectric slab waveguide with both **isotropic** and **anisotropic** (Lithium Niobate, LiNbO₃) core media. The analytic procedures for modal analysis are outlined and implemented in **MATLAB**, with results validated against the  [OMS — 1D Mode Solver](https://www.computational-photonics.eu/oms.html) and [TFLN online solvers](https://www.computational-photonics.eu/tflnsinout.html).
 
 Key analyses performed:
 - Dependence of effective indices on waveguide thickness
@@ -197,6 +188,11 @@ All simulations use vacuum wavelength **λ = 1.55 μm** with Lithium Niobate par
 - TE modes (blue) have higher Neff than TM modes (black)
 - Neff increases monotonically with waveguide half-thickness `a`
 - Example at `a = 0.22 μm`: TE₀ Neff = 2.8051, TM₀ Neff = 1.8747
+- <figure>
+  <img src="./Slide_figure/SFB_layout.png" width="500">
+  <figcaption><b>Fig:Shunt Feedback Toplogy</b> </figcaption>
+</figure>
+
 - Example at `a = 0.44 μm`: TE₀ Neff = 3.1973, TM₀ Neff = 3.0180
 
 ---
